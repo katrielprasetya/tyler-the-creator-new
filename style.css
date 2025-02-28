@@ -201,18 +201,95 @@ nav {
   justify-content: center;
 }
 
-.headline-works {
+.headline-works{
   text-align: center;
-  padding: 10px;
+  margin-top: 100px;
+  font-size: 5rem;
 }
 
-.subheadline-works {
+.headline-works h2{
+  text-align: center;
+  color: #544210;
+  padding: 0px;
+  font-size: 5rem;
+}
+
+.subheadline-works h6{
   text-align: center;
   padding: 10px;
+  margin-top: 0px;
+  margin: 35px;
+  font-size: 1em;
+  color: #544210;
 }
 
 .section-album {
-  display: flex;
+  margin: 35px;
   gap: 30px;
-  justify-content: space-around;
+}
+
+.headline-album{
+  text-align: left;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  padding: 20px;
+}
+
+.album-list {
+  text-align: center;
+  text-decoration: none;
+}
+
+.album-list img{
+  width: 300px;
+  height: 300px;
+}
+
+.album-name{
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: #544210;
+  text-transform: capitalize;
+}
+
+.album-year{
+  font-size: 1.2rem;
+  color: #544210;
+  margin-top: 0px;
+}
+
+.album-poster{
+  position: relative;
+}
+
+.album-poster a{
+  text-decoration: none;
+  position: absolute;
+  bottom: 25px;
+  left: 0%;
+  right: 0;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 80px;
+  font-size: 1em;
+}
+
+
+.button-border {
+  background-color: #AED9E9;
+  padding: 10px;
+  border-radius: 5px;
+  color: #544210;
+  font-weight: bold;
+}
+
+.button-border:hover {
+  box-shadow: inset 0 0 0 2px#AED9E9;
+  color: #AED9E9;
+  background-color: transparent;
+  text-decoration: underline;
 }
