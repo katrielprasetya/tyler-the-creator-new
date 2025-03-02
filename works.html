@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works Page</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+*{
+    margin-left: 0px;
+}
+
+.top-headline {
+    background-color: #267E39;
+    display: grid;
+    left: 0;
+    top: 0;
+    grid-template-columns: 60% 40%;
+    align-items: start;
+    min-width: 100%;
+    position: absolute;
+    z-index: -1;
+    grid-template-rows: auto auto auto;
+}
+
+    nav a{
+        color: black;
+    }
+
+    nav .spotify {
+        margin-left: 40px;
+    }
+
+    nav .nav-buttons{
+        gap: 0px;
+    }
+
+    .left-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        min-height: 100vh;
+    }
+
+    .chromakopia{
+        gap: 15px;
+        padding-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        grid-column: 1 / -1;
+
+    }
+
+    .chromakopia img{
+        width: 700px;
+    }
+
+    .chromakopia h1{
+        padding-top: 30px;
+        font-size: 90px;
+    }
+
+    .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: black;
+    min-height: 100vh;
+    }
+
+    .listen-now {
+        display: flex;
+        grid-column: span 2;
+        grid-row: 3;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 90px;
+    }
+
+    .listen-now img{
+        padding-top: 20px;
+        transform: rotate(90deg);
+        height: 25px;
+        width: 25px;
+    }
+
+    .listen-now a{
+        text-decoration: none underline;
+        background-color: transparent;
+        color: black;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+.section-works {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 30px;
+    min-height: 100vh;
+    margin-top: calc(100vh - 10px);
+    margin-bottom: calc(100vh - 900px);
+    min-width: auto;
+    padding-top: 60px;
+}
+
+.works-top-headline {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+    color: #7C4B17;
+}
+
+.works-top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline-album{
+  text-align: left;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; 
+  padding: 50px;
+  padding-top: 0px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+.album-list {
+  text-align: center;
+  text-decoration: none;
+}
+
+.album-list img{
+  width: 300px;
+  height: 300px;
+}
+
+.album-name{
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: #544210;
+  text-transform: capitalize;
+}
+
+.album-year{
+  font-size: 1.2rem;
+  color: #544210;
+  margin-top: 0px;
+}
+
+.album-poster{
+  position: relative;
+}
+
+.album-poster a{
+  text-decoration: none;
+  position: absolute;
+  bottom: 25px;
+  left: 0%;
+  right: 0;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 80px;
+  font-size: 1em;
+}
+
+
+.button-border {
+  background-color: #AED9E9;
+  padding: 10px;
+  border-radius: 5px;
+  color: #544210;
+  font-weight: bold;
+}
+
+.button-border:hover {
+  box-shadow: inset 0 0 0 2px#AED9E9;
+  color: #AED9E9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body style="background-color: #F8F5EB;">
+    <nav>
+        <div class="spotify space-mono-regular">
+            <a href="">SPOTIFY</a><img src="spotify-icon-black.png" alt="spotify logo">
+        </div>
+        <div class="nav-buttons space-mono-regular">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="works.html">WORKS</a>
+        </div>
+    </nav>
+    <div class="top-headline">
+        <div class="chromakopia space-mono-regular">
+            <img src="chromakopia.png" alt="CHROMAKOPIA">
+            <h1 class="space-mono-bold-italic">OUT NOW.</h1>
+        </div>
+        <div class="left-content"></div>
+        <div class="right-content space-mono-regular">
+            <p>On April 13, 2024, Okonma performed a headliner set at Coachella, closing out Saturday night with a performance that included guest appearances from Childish Gambino, ASAP Rocky, and Kali Uchis along with a duet of "Earfquake" with Charlie Wilson. He began the set bursting through the wall of a fake trailer using pyrotechnics, before performing tracks from across his discography. Critics labeled the performance as an "exhilarating, high-stakes spectacle", and a "brilliant reminder of a cult hero's power".
+
+                On October 16, 2024, Okonma revealed the name of his next album as Chromakopia in a teaser video titled "St. Chroma". On October 21, Okonma released the single, "Noid". The album was released on October 28.
+            </p>
+        </div>
+            <div class="listen-now space-mono-bold">
+            <a href="https://www.chromakopia.com/#home">LISTEN NOW</a> <img src="spotify-icon-black.png" alt="">
+            </div>
+    </div>
+    <div class="section-works">
+        <div class="works-top-headline hedvig-letters-serif" style="font-size: 50px;">
+            <h2>Works.</h2>
+        </div>
+        <div class="works-top-headline space-mono-regular">
+        <p> BIOGRAFI SINGKAT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </div>
+    </div>
+    <div class="album-grid">
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/BASTARDCOVER.png" alt="bastard cover">
+                <a href="https://open.spotify.com/track/7gza9mETipz1YWiN7tOedL?si=6604afda416c42af" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Bastard</div>
+            <div class="space-mono-regular album-year">2009</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f6/Goblindeluxeedition.jpg?20240911000731" alt="bastard cover">
+                <a href="https://open.spotify.com/album/3CxknRPQLbOJRwQrNekNyU?si=obEtBDUaQly2ZJxvWAMRfw" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Goblin</div>
+            <div class="space-mono-regular album-year">2011</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Wolf_Cover2.jpg?20240806000059" alt="bastard cover">
+                <a href="https://open.spotify.com/album/40QTqOBBxCEIQlLNdSjFQB?si=A2EhNYhrTcmh7CX9POHAhQ" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Wolf</div>
+            <div class="space-mono-regular album-year">2013</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Cherry_Bomb_Tyler_the_Creator.png?20170126064007" alt="bastard cover">
+                <a href="https://open.spotify.com/album/621OhgnZJ7Pz8iUazct1In?si=iz03MIWrTi67O1OQlFIgLA" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Cherry Bomb</div>
+            <div class="space-mono-regular album-year">2015</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png?20190514072003" alt="bastard cover">
+                <a href="https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o?si=dRBFyH5RRGSbpvF0Q2vPtQ" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Flower Boy</div>
+            <div class="space-mono-regular album-year">2017</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg?20190517164301" alt="bastard cover">
+                <a href="https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE?si=S0LeA8yjRlSQtOkS3xrQ1g" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Igor</div>
+            <div class="space-mono-regular album-year">2019</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/d/d3/Call_Me_If_You_Get_Lost_album_cover.jpg?20210618000136" alt="bastard cover">
+                <a href="https://open.spotify.com/album/45ba6QAtNrdv6Ke4MFOKk9?si=GUI68hO9Tgyozjw1iTJOuA" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Call Me If You Get Lost</div>
+            <div class="space-mono-regular album-year">2021</div>
+        </div>
+
+        <div class="album-list">
+            <div class="album-poster">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Chromakopia_CD_cover.jpg?20241019000116" alt="bastard cover">
+                <a href="https://open.spotify.com/album/0U28P0QVB1QRxpqp5IHOlH?si=d0LHCYlqQz6TECSRBn4dMA" class="button-border hedvig-letters-serif">LISTEN NOW</a>
+            </div>
+            <div class="hedvig-letters-serif album-name">Chromakopia</div>
+            <div class="space-mono-regular album-year">2024</div>
+        </div>
+
+    </div>
+</body>
+</html>

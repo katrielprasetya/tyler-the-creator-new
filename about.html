@@ -3,50 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+
+        }
+        
+        .main-container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        min-height: 100vh; 
+        }
+
+        .left {
+            background: url(about-tyler.png) no-repeat center center/cover;
+            height: 100vh;
+        }
+
+        .right {
+            background: #F8F5EC;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+        }
+
+        .content {
+            max-width: 90%;
+            font-size: 14px;
+            padding: 100px;
+            line-height: 1.5;
+        }
+        
+        .content p{
+            color: #7C4B17;
+        }
+
+        .content h3{
+            color: #7C4B17;
+            padding-bottom: 20px;
+        }
+
+        .footer {
+            justify-content: flex-end;
+            padding-bottom: 20px;
+            display: flex;
+            gap: 200px;
+            font-size: 16px;
+            margin-top: auto;
+        }
+        .footer a {
+            text-decoration: none underline;
+            font-weight: bold;
+            color: #7C4B17;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        .bottom-headline {
+            background-color: #7C4B17;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 100vh;
+            margin-top: auto;
+            padding: 5%;
+            flex-shrink: 0;
+        }
+
+        .bottom-headline h1 {
+            max-width: 50%;
+            line-height: 1;
+            padding: 30px;
+            text-align: center;
+            color: #AED9E9;
+            font-size: 70px;
+
+        }
+        .bottom-headline p{
+            color: #F8F5EC;
+            margin-top: 10px;
+            max-width: 80%;
+            text-align: center;
+            font-size: 16px;
+        }
+        nav {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: transparent;
+            z-index: 1000;
+        }
+
+        nav .spotify {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: 20px;
+        }
+
+        nav .spotify a {
+            text-decoration: none;
+            color: #FFF5CB;
+        }
+
+        .nav-buttons {
+            display: flex;
+            margin-right: 20px;
+            gap: 10px;
+        }
+
+        .nav-buttons a {
+            text-decoration: none;
+            color: #7C4B17;
+        }
+
+        .nav-buttons a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body class="bg-beige">
-<nav>
-    <div class="nav-links black-color hedvig-letters-serif">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">WORKS</a>
-    </div>
-</nav>
-<div class="section-about">
-    <div class="FOTO-1">
-        <img src="https://i.pinimg.com/736x/8b/67/07/8b67073e0fcc1688673e84f2ec951b31.jpg" alt="">
-    </div>
+<body>
+    <nav>
+        <div class="spotify space-mono-regular">
+            <a href="">SPOTIFY</a><img src="spotify-icon-white.png" alt="spotify logo">
+        </div>
+        <div class="nav-buttons space-mono-regular">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="works.html">WORKS</a>
+        </div>
+    </nav>
 
-    <div class="SOCIAL-MEDIA">
-        <a href="https://www.instagram.com/feliciathegoat/?hl=en">INSTAGRAM</a>
-        <a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF">SPOTIFY</a>
-        <a href="https://www.youtube.com/channel/UCsQBsZJltmLzlsJNG7HevBg">YOUTUBE</a>  
-
-        <br>
-
-        <div class="content-about">
-            <h2 class="hedvig-letters-serif" style="font-weight: bold;">"CREATOR WHO IS LEAVING THEIR MARK IN LOS ANGELES"</h2>
-        </div>  
-    </div>
-</div>
-
-<br><br><br>
-
-<div class="section-history">
-    <div class="section-kiri">
-      <h6 class="space-mono-regular">Tyler Gregory Okonma was born on March 6, 1991, in Hawthorne, California,the son of a Nigerian father with Igbo ancestry, whom he never met, and an American mother of mixed African-American and white Canadian descent. He spent his early life living in Hawthorne before moving to Ladera Heights at 17. At the age of seven, he would take covers out of CD cases and create covers for his own imaginary albums—including a tracklist with song lengths—before he could even make music. At the age of 14, he taught himself to play the piano.
-        Okonma took his stage name from a Myspace page he used to post his creative endeavors.
-        His first YouTube video was released on February 28, 2008. He posted videos until October 2009, when he stopped uploading to focus on his debut album, Bastard.</h6>  
+    <div class="main-container">
+        <div class="left space-mono-regular spotify">
+        </div>
+        <div class="right space-mono-regular">
+            
+            <div class="content space-mono-regular">
+                <h3>EARLY LIFE</h3>
+                <p>Tyler Gregory Okonma was born on March 6, 1991, in Hawthorne, California, the son of a Nigerian father with Igbo ancestry, whom he never met, and an American mother of mixed African-American and white Canadian descent. He spent his early life living in Hawthorne before moving to Ladera Heights at 17. At the age of seven, he would take covers out of CD cases and create covers for his own imaginary albums—including a tracklist with song lengths—before he could even make music. At the age of 14, he taught himself to play the piano.</p>
+            </div>
+            <div class="footer">
+                <a href="https://www.instagram.com/feliciathegoat/?hl=en">INSTAGRAM</a>
+                <a href="https://www.youtube.com/channel/UCsQBsZJltmLzlsJNG7HevBg">YOUTUBE</a>
+                <a href="https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF">SPOTIFY</a>
+            </div>
+        </div>
     </div>
 
-    <div class="section-kanan">
-        <h6 class="space-mono-regular">Aside from his musical productions, Okonma became a significant figure in fashion with his clothing ventures Golf Wang and Le Fleur, and for his collaborations with major brands such as Lacoste, Converse and Louis Vuitton. He has also directed all of the music and promotional videos of his career, under the pseudonym Wolf Haley. Okonma has won two Grammy Awards, three BET Hip Hop Awards, a BRIT Award, and a MTV Video Music Award. In 2019, he was named "Music Innovator of the Year" by The Wall Street Journal. In 2024, the Los Angeles Times featured Okonma in its "L.A. Influential" series as a "creator who is leaving their mark" in Los Angeles.</h6>  
-      </div>
-
-</div>
-
-
+    <div class="bottom-headline">
+        <h1 class="hedvig-letters-serif">"CREATOR WHO IS LEAVING THEIR MARK IN LOS ANGELES"</h1>
+         <p class="space-mono-regular" style="color: #AED9E9;">Okonma's music has been described as alternative hip-hop, hip hop, neo soul, West Coast hip hop, jazz rap, and hardcore hip hop, while his early music has been described as horrorcore. When Okonma emerged on the music scene as a "strange figure" of the Internet and one of the leaders of the music collective Odd Future, his musical productions instinctively became noted for resembling those of Pharrell Williams and his works in N.E.R.D and The Neptunes during the 2000s, which Okonma has referenced as his greatest inspirations and references.
+            The horrorcore-based aesthetics and transgressive lyrical content of his debut and second albums Bastard and Goblin were influenced by Eminem, especially his album Relapse (2009), which according to Okonma, is one of his favorites. When asked about the reason for his offensive content in his lyrics, Okonma responded that "they are not offensive" and that "I just like to piss off old white dudes."
+            The "nihilistic" and dark aesthetic of his early work was heavily criticized in online music communities for including lyrics in which he talked about rape and murder. The music video for "Yonkers", which featured Okonma eating a cockroach and committing suicide at the end, attracted controversy in the media, as well as being posted by Kanye West on his Twitter account, calling it "the video of 2011".
+         </p>
+    </div>
 </body>
 </html>
