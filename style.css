@@ -4,56 +4,59 @@
     margin-right: 10px;
 }
 
+body {
+    overflow-y: scroll;
+}
+
 /* fonts */
 .space-mono-regular {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .space-mono-bold {
+}
+
+.space-mono-bold {
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .space-mono-regular-italic {
+}
+
+.space-mono-regular-italic {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .space-mono-bold-italic {
+}
+
+.space-mono-bold-italic {
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: italic;
-  }
+}
 
-  
 .hedvig-letters-serif {
     font-family: "Hedvig Letters Serif", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .italianno-regular {
+.italianno-regular {
     font-family: "Italianno", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 /* fonts */
 
 nav {
-   display: flex;
-   justify-content: space-between;
-   height: 70px;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 
-nav a{
-    color: #7C4B17;
+nav a {
+    color: #7c4b17;
 }
 
 .spotify {
@@ -62,16 +65,16 @@ nav a{
     align-items: center;
 }
 
-.spotify a{
+.spotify a {
     text-decoration: none;
     margin: 0;
 }
 
-.spotify a:hover{
+.spotify a:hover {
     text-decoration: underline;
 }
 
-.spotify img{
+.spotify img {
     height: 15px;
     width: 15px;
     margin: 0;
@@ -84,22 +87,22 @@ nav a{
     gap: 20px;
 }
 
-.nav-buttons a{
+.nav-buttons a {
     text-decoration: none;
 }
 
-.nav-buttons a:hover{
+.nav-buttons a:hover {
     text-decoration: underline;
     font-style: italic;
 }
 
-.nav-buttons a:active{
+.nav-buttons a:active {
     text-decoration: underline;
 }
 
 .hero-content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     min-height: calc(100vh - 70px);
 }
 
@@ -110,8 +113,8 @@ nav a{
     padding-left: 0px;
 }
 
-.biografi-content p{
-    color: #7C4B17;
+.biografi-content p {
+    color: #7c4b17;
     font-size: 18px;
 }
 
@@ -123,7 +126,7 @@ nav a{
 }
 
 .home-headline h1 {
-    color: #7C4B17;
+    color: #7c4b17;
     font-size: 120px;
     line-height: 0.7;
 }
